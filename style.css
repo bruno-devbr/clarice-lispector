@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 
 * {
     margin: 0;
@@ -10,20 +11,34 @@
 body {
     height: 100vh;
     width: 100vw;
+    min-width: 375px;
+    min-width: 375px;
+    background-color: #ebe5c5;
+    font-family: "Lato", sans-serif;
 }
 
 header {
     text-align: center;
-    background-color: rgb(231, 205, 209);
+    background-color: #f8f0e3;
     height: 80px;
     padding: 20px;
     box-sizing: border-box;
+    box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.192);
 }
 
 header h1 {
     font-size: 36px;
     font-family: "Playfair Display", serif;
     color: #4a4a4a;
+}
+
+main {
+    max-width: 1000px;
+    min-width: 375px;
+    margin: auto;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.192);
+    font-size: 20px;
 }
 
 .image {
@@ -34,5 +49,78 @@ header h1 {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    margin-bottom: 30px;
 }
 
+section {
+    padding: 0px 30px 30px 30px;
+    margin-bottom: 30px;
+}
+
+section h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: rgb(9, 9, 31);
+}
+
+section p {
+    text-align: justify;
+    color: #12001d;
+}
+
+.book-img {
+    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.book-img img {
+    width: 400px;
+    min-width: 375px;
+}
+
+.book {
+    max-width: 400px;
+    min-width: 375px;
+}
+
+.book p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+section.premios p {
+    margin-bottom: 20px;
+}
+
+section.premios ul {
+    list-style-position: inside;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer {
+    background-color: #fff;
+    max-width: 1000px;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 30px;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.075);
+}
+
+footer p {
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+footer a {
+    text-decoration: none;
+    color: #12001d;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
