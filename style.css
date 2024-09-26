@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(231, 205, 209);
+    height: 80px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+header h1 {
+    font-size: 36px;
+    font-family: "Playfair Display", serif;
+    color: #4a4a4a;
+}
