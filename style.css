@@ -77,13 +77,11 @@ section p {
 }
 
 .book-img img {
-    width: 400px;
-    min-width: 375px;
+    width: 315px;
 }
 
 .book {
-    max-width: 400px;
-    min-width: 375px;
+    width: 315px;
 }
 
 .book p {
